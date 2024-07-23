@@ -6,4 +6,9 @@
 ## Project Overview
 
 
-## Preliminary Analys
+## Training the CNN
+![Training and validation loss](figures/loss_graph.png)
+![Training and validation accuracy](figures/accuracy_graph.png)
+
+## Evaluating the CNN
+![Confusion matrix on testing datasets](figures/test_conf_matrx.png)
