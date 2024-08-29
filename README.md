@@ -21,6 +21,8 @@ The ChEMBL database also provides canonical SMILES for each compound, which is a
 ![Training and validation loss](figures/loss_graph.png)
 ![Training and validation accuracy](figures/accuracy_graph.png)
 
+With each iteration, the training and validation loss decreases, and by the 20th iteration, the loss is minimal (Figure 2). Similarly, the training and validation accuracies increase with each iteration, and by the 20th iteration, the CNN exhibits nearly perfect accuracy on both the training and validation sets (Figure 3). These all indicate that the CNN is learning to predict whether or not the compound can effectively inhibit β-lactamase based on the molecular structure of the compound. Additionally, the training and validation losses and accuracies are similar across all iterations (Figures 2 and 3), suggesting that the CNN is not overfitted. 
+
 ## *Evaluating the CNN*
 ![Confusion matrix on testing datasets](figures/test_conf_matrix.png)
 
