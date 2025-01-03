@@ -26,6 +26,7 @@ With each iteration, the training and validation loss decreases, and by the 20th
 ## *Evaluating the CNN*
 ![Confusion matrix on testing datasets](figures/test_conf_matrix.png)
 
+The CNN was evaluated on the testing dataset, with results summarized in the confusion matrix above. The model correctly identified the majority of inactive and active compounds, with only one false positive and one false negative. This indicates that the CNN performs well and demonstrates a high level of accuracy. These results suggest that using images of molecular structures is a viable approach for predicting whether a drug candidate can effectively inhibit antibiotic resistance. Furthermore, this method may eliminate the need for extensive feature engineering, simplifying the predictive modeling process.
 
 
 [^1]: C. L. Tooke *et al.*, “β-Lactamases and β-Lactamase Inhibitors in the 21st Century,” *J Mol Biol*, vol. 431, no. 18, pp. 3472–3500, Aug. 2019, doi: 10.1016/j.jmb.2019.04.002. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6723624/
